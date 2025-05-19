@@ -1,0 +1,44 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "Katibeh";
+  src: url("../../fonts/Katibeh-Regular.woff2") format("woff2"),
+    url("../../fonts/Katibeh-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// fonts
+$base-font-size: 15;
+$base-font: "Poppins", sans-serif;
+$heading-font: "Katibeh";
+
+// color
+$dark-gray: #000b47; //
+$body-color: #687693;
+$white: #fff; //
+$light: #d20000; //
+$black: #000; //
+$small-black: #333;
+$cyan: #848892;
+
+$theme-primary-color: linear-gradient(
+  358deg,
+  #1e63ff -1077.15%,
+  #187cff -690.64%,
+  #128fff -213.19%,
+  #d20000 218.79%,
+  #06c2ff 764.46%,
+  #00dbff 1196.44%
+);
+$body-bg-color: #fff;
+$section-bg-color: #fafbfe;
+$text-color: #767676; //
+$text-light-color: #585858; //
+$heading-color: $dark-gray;
+$border-color: #d5dce1; //
+$border-color-s2: #d9d9d9;
