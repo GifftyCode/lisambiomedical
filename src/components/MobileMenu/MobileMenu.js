@@ -38,48 +38,58 @@ const menus = [
     id: 3,
     title: "Products",
     link: "/products",
-    // submenu: [
-    //     {
-    //         id: 31,
-    //         title: 'Doctor',
-    //         link: '/team'
-    //     },
-    //     {
-    //         id: 32,
-    //         title: 'Doctor single',
-    //         link: '/team-single/Marlene-Henry'
-    //     },
-    //     {
-    //         id: 33,
-    //         title: 'Shop',
-    //         link: '/shop'
-    //     },
-    //     {
-    //         id: 34,
-    //         title: 'Shop Single',
-    //         link: '/shop-single/prayer-mat'
-    //     },
-    //     {
-    //         id: 35,
-    //         title: 'Cart',
-    //         link: '/cart'
-    //     },
-    //     {
-    //         id: 36,
-    //         title: 'Checkout',
-    //         link: '/checkout'
-    //     },
-    //     {
-    //         id: 37,
-    //         title: '404 Error',
-    //         link: '/404'
-    //     },
-    //     {
-    //         id: 38,
-    //         title: 'Faq',
-    //         link: '/faq'
-    //     },
-    // ]
+    submenu: [
+      // {
+      //     id: 31,
+      //     title: 'Doctor',
+      //     link: '/team'
+      // },
+      // {
+      //     id: 32,
+      //     title: 'Doctor single',
+      //     link: '/team-single/Marlene-Henry'
+      // },
+      {
+        id: 33,
+        title: "equipments",
+        link: "/products/equipments",
+      },
+      {
+        id: 34,
+        title: "consumables",
+        link: "/products/consumables",
+      },
+      {
+        id: 35,
+        title: "art_media",
+        link: "/products/art_media",
+      },
+      // {
+      //     id: 34,
+      //     title: 'Shop Single',
+      //     link: '/shop-single/prayer-mat'
+      // },
+      // {
+      //     id: 35,
+      //     title: 'Cart',
+      //     link: '/cart'
+      // },
+      // {
+      //     id: 36,
+      //     title: 'Checkout',
+      //     link: '/checkout'
+      // },
+      // {
+      //     id: 37,
+      //     title: '404 Error',
+      //     link: '/404'
+      // },
+      // {
+      //     id: 38,
+      //     title: 'Faq',
+      //     link: '/faq'
+      // },
+    ],
   },
   {
     id: 7,
